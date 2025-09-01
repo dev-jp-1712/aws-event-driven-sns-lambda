@@ -19,7 +19,8 @@ It shows how to decouple services, scale automatically, and build resilient syst
 
 ## Architecture
 
-<img width="1000" height="667" alt="Untitled diagram _ Mermaid Chart-2025-09-01-110804" src="https://github.com/user-attachments/assets/c4da986c-0056-470c-8555-9947045cbfbc" />
+<img width="3840" height="2568" alt="Untitled diagram _ Mermaid Chart-2025-09-01-110804" src="https://github.com/user-attachments/assets/d1b22fff-4ab9-41de-9fcc-76748e89a76b" />
+
 
 - The API publishes events to SNS.
 - SNS fans out events to multiple Lambda subscribers.
